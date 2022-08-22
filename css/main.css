@@ -1,0 +1,447 @@
+*{margin:0; padding: 0; font-family: sans-serif; box-sizing: border-box; }
+
+.mobile-nav{display: none;}
+.nav{width: 100%; ; display: flex; }
+.nav .logo{width: 20%; margin-top: 10px; display: flex; text-align: right;}
+.nav .logo img{width: 30%; height: 40px;}
+.nav .logo a{text-align: right; font-size: 27px; text-decoration: none; font-weight: 300; color: black;}
+.nav .link-1{width: 40%; display: flex; justify-content: space-evenly; text-align: right; margin-top: 20px;}
+.nav .link-1 a{font-size: 17px; text-decoration: none; color: black; justify-content: space-evenly}
+.nav .link-2{width: 40%; display: flex; justify-content: space-evenly; margin-top: 20px; text-align: right;}
+.nav .link-2 a{font-size: 17px; text-decoration: none; color: black;}
+.nav .link-2 .btn-4{padding: 10px 20px; color: white; border-radius: 2px; background-color: blue;}
+.nav .link-2 .btn-1:hover{padding: 10px 20px; background-color: rgb(203, 224, 241); color: black; border: none;}
+.nav .link-2 .btn-2:hover{padding: 10px 20px; background-color: rgb(203, 224, 241); color: black; border: none;}
+.nav .link-2 .btn-2{color: blue;}
+
+.nav .link-2 .btn-3:hover{background-color: rgb(203, 224, 241); color: black; border: 2px;}
+.nav .link-2 .btn-3{padding: 10px 20px; color: blue; border: 2px solid blue; background-color: transparent}
+
+
+
+/* CSS ROW-1 Start */
+.row-1{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: auto; margin-top: 50px;}
+.row-1 .col-1{object-fit: contain;}
+.row-1 .col-1 h1{font-weight: 500; font-size: 50px;}
+.row-1 .col-1 h2{font-size: 25px; margin-top: 10px; font-weight: 2;}
+.row-1 .col-1 .links{width: 50%; text-decoration: none; display: flex; margin-top: 30px; justify-content: space-evenly; text-align: right;}
+.row-1 .col-1 .links a{text-decoration: none; text-align: right;}
+.row-1 .col-1 .links .btn-1{border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: white;}
+.row-1 .col-1 .links .btn-2{border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4 ;}
+
+.row-1 .col-1 p{font-size: 15px; margin-top: 70px; text-decoration: none;}
+.row-1 .col-2{object-fit: contain; margin-left: 50px;}
+.row-1 .col-2 img{width: 100%; height:auto;  }
+
+/* CSS ROW-2 Start */
+.row-2{width:  90%; height: 100px; margin: 50px; border-top: 1px solid gainsboro; justify-content: center; text-align: center;}
+.row-2 p{font-size: 18px; margin-top: 60px;}
+.row-2 a{text-decoration: none;}
+
+
+/* CSS ROW-3 START */
+.row-3{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: auto; margin-top: 60px;}
+.row-3 .col-1{object-fit: contain; } 
+.row-3 .col-1 img{width: 100%; height:auto   }
+.row-3 .col-2 h1{font-weight: 200; font-size: 40px; margin-top: 160px; text-align: left;}
+.row-3 .col-2 p{font-size: 20px; margin-top: 30px; text-decoration: none;}
+
+/* CSS ROW-4 Start */
+.row-4{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: auto; margin-top: 60px;}
+.row-4 .col-1 h1{font-weight: 200; font-size: 40px; margin-top: 160px;}
+.row-4 .col-1 p{font-size: 20px; margin-top: 30px; text-decoration: none;}
+.row-4 .col-2{margin: 80px; } 
+.row-4 .col-2 img{width: 100%; height:auto   }
+
+/* CSS ROW-5 START */
+.row-5{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: auto; margin-top: 70px;}
+.row-5 .col-1{object-fit: contain; } 
+.row-5 .col-1 img{width: 100%; height:auto   }
+.row-5 .col-2 h1{font-weight: 200; font-size: 40px; margin-top: 160px; text-align: left;}
+.row-5 .col-2 p{font-size: 20px; margin-top: 30px; text-decoration: none;}
+
+/* CSS ROW-6 START */
+.row-6{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: auto; margin-top: 70px;} 
+.row-6 .col-1 h1{font-weight: 200; font-size: 40px; margin-top: 120px;}
+.row-6 .col-1 p{font-size: 20px; margin-top: 30px; text-decoration: none;}
+.row-6 .col-2{margin: 70px; object-fit: contain;}
+.row-6 .col-2 img{width: 100%; height:auto   }
+
+/* CSS ROW-7 Start */
+.row-7{width: 100%; height: 900px; justify-content: center;}
+.row-7 .main{width: 90%; height: 900px; background-color: rgb(222, 240, 245); margin-left: 90px; margin-right: 90px; margin-top: 200px; text-align: center;}
+.row-7 .main .top h1{padding: 30px; font-size: 40px;}
+.row-7 .main .center{padding: 30px; margin: 10px; display: flex; text-align: center; justify-content: center}
+.row-7 .main .center img{width: 12%; height: 30px; }
+.row-7 .main .bottom{width: 80%; height: 450px; background-color: whitesmoke; margin: 135px;}
+.row-7 .main .bottom img{padding: 30px; margin-top: 20px;}
+.row-7 .main .bottom p{padding: 20px; font-size: 25px;}
+.row-7 .main .bottom a{padding: 30px; text-decoration: none;}
+.row-7 .main .center-1{display: none;}
+.row-7 .main .center-2{display: none;}
+
+/* CSS ROW-8 Start */
+.row-8{width: 100%; height: 200px; justify-content: center;}
+.row-8 .top{width: 100%; display: flex;  justify-content: center; margin-top: 90px;}
+.row-8 .top h1{font-size: 20px; text-align: center;}
+.row-8 .bottom { justify-content: center; display: grid; grid-template-columns: auto auto auto auto auto auto; margin-top: 30px;}
+.row-8 .bottom .col{ margin: 10px; text-align: center;}
+.row-8 .bottom .col img{ object-fit: contain;}
+.row-8 .bottom .col img:hover{box-shadow: 3px 3px 2px 2px rgb(42, 42, 44);}
+.row-8 .clone-1{display: none;}
+.row-8 .clone-2{display: none;}
+
+
+/* CSS ROW-9 Start */
+.row-9{width: 100%; height: 400px; text-align: center; justify-content: center ; padding: 60px; text-decoration: none;}
+.row-9 h1{font-weight: 500; font-size: 50px;}
+.row-9 h2{font-size: 25px; margin-top: 10px; font-weight: 2;}
+.row-9 p{margin-top: 20px;}
+.row-9 .image{width: 100%; display: flex; margin-top: 20px; justify-content: center; }
+.row-9 .image .col{margin: 10px;}
+.row-9 .image .col p{font-size: 12px;}
+
+/* CSS ROW-9 Start */
+.row-10{width: 100%; height: 700px; justify-content: center;}
+.row-10 table{ width: 1400px; margin-left: 90px; margin-right: 90px; margin-top: 200px; border-collapse: collapse; font-size: 16px; font-weight: 500; line-height: 24px; line-height: 24px; }
+.row-10 th{text-align: center; font-size: 11px; height: 200px;}
+.row-10 .cost{display: flex; margin: 20px;   justify-content: center;}
+.row-10 .cost h2{color: blue; font-size: 30px; }
+.row-10 .cost p{font-size: 19px;}
+.row-10 .col-1{display: flex; ;}
+.row-10 .col-1 h1{font-size: 20px;}
+.row-10 .col-1 img{height: 20px;}
+.row-10 .col-2{display: flex; ;}
+.row-10 .col-2 h1{font-size: 20px;}
+.row-10 .col-2 img{height: 20px;}
+.row-10 .col-3{display: flex; ;}
+.row-10 .col-3 h1{font-size: 20px;}
+.row-10 .col-3 img{height: 20px;}
+.row-10 .col-4{display: flex; ;}
+.row-10 .col-4 h1{font-size: 20px;}
+.row-10 .col-4 img{height: 20px;}
+.row-10 .col-5{display: flex; ;}
+.row-10 .col-5 h1{font-size: 20px;}
+.row-10 .col-5 img{height: 20px;}
+.row-10 table tr th{border: 1px solid gainsboro; border-left: none;}
+.row-10 table tr td{border: 1px solid gainsboro; border-left: none; padding: 15px 0; vertical-align: middle;}
+
+/* CSS ROW-11 Start  */
+.row-11 {width: 90%; height: 300px; margin: 70px; text-align: center;}
+.row-11 h1{margin-top: 150px; font-size: 30px;}
+.row-11 img{margin-top: 20px;}
+.row-11 p{ font-size: 20px;}
+.row-11 a{ text-decoration: none;}
+
+/* CSS ROW-12 Start  */
+.row-12 {width: 100%;}
+.row-12 h1 {width: 100%; text-align: center; color: #202124; padding-top: 7%; padding-bottom: 1%;}
+.row-12 .links {width: 30%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+.row-12 a{text-decoration: none;}
+.row-12 .links .btn-1{border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: white;}
+.row-12 .links .btn-2{border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4 ;}
+
+/* CSS Footer Start */
+.footer {width: 100%; background-color: #F8F9FA; padding: 2%;}
+.footer .top{width: 95%; margin: auto;}
+.footer .top a{text-decoration: none; color: #4285F4;}
+.footer .top p{border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+.footer .bottom{width: 90%; display: flex;}
+.footer .bottom .col-1{width: 40%; display: flex; justify-content: space-evenly; margin-left: 2%; padding-top: 3%;}
+.footer .bottom .col-1 a{font-size: 20px; text-decoration: none; color: #202124;}
+.footer .bottom .col-2{width: 40%; display: flex; justify-content: space-evenly; padding-top: 3%;}
+.footer .bottom .col-2 a{text-decoration: none; text-align: right; color: #202124;}
+.footer .bottom .col-2 p{color: #202124; text-align: right; color: #202124;}
+
+
+
+/* Download CSS Nav Start */
+.download .nav{width: 100%; ; display: flex; margin-top: 30px; padding-top: 20px;}
+.download .logo{width: 20%; padding: 10px; display: flex; text-align: right;}
+.download .nav .logo img{width: 30%; height: 40px;}
+.download .nav .logo a{text-align: right; font-size: 27px; text-decoration: none; font-weight: 300; color: black;}
+.download .nav .link-1{width: 40%; display: flex; justify-content: space-evenly; padding: 5px 3%; text-align: right;}
+.download .nav .link-1 a{ margin-top: 12px; font-size: 17px; text-decoration: none; color: black; justify-content: space-evenly}
+.download .nav .link-2{width: 40%; display: flex; justify-content: space-evenly; padding: 5px 3%; text-align: right;}
+.download .nav .link-2 a{ margin-top: 12px; font-size: 17px; text-decoration: none; color: black;}
+.download .nav .link-2 .btn-4{padding: 10px 20px; color: white; border-radius: 2px; background-color: blue;}
+.download .nav .link-2 .btn-1:hover{padding: 10px 20px; background-color: rgb(203, 224, 241); color: black; border: none;}
+.download .nav .link-2 .btn-2:hover{padding: 10px 20px; background-color: rgb(203, 224, 241); color: black; border: none;}
+.download .nav .link-2 .btn-2{color: blue;}
+
+.download .nav .link-2 .btn-3:hover{background-color: rgb(203, 224, 241); color: black; border: 2px;}
+.download .nav .link-2 .btn-3{padding: 10px 20px; color: blue; border: 2px solid blue; background-color: transparent}
+
+
+
+/* CSS ROW-1 Start */
+.download .row-1{width: 100%; height: 500px; display: flex; padding: 100px; text-decoration: none;}
+.download .row-1 .col-1{width: 45%;} 
+.download .row-1 .col-1 h1{font-weight: 500; font-size: 50px;}
+.download .row-1 .col-1 h2{font-size: 25px; margin-top: 10px; font-weight: 2;}
+.download .row-1 .col-1 .links{width: 40%; text-decoration: none; display: flex; margin-top: 30px; justify-content: space-evenly; text-align: right;}
+.download .row-1 .col-1 .links a{text-decoration: none; text-align: right;}
+.download .row-1 .col-1 .links .btn-1{border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: white;}
+.download .row-1 .col-1 .links .btn-2{border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4 ;}
+
+.download .row-1 .col-1 p{font-size: 15px; margin-top: 70px; text-decoration: none;}
+.download .row-1 .col-2{width: 45%; margin-left: 50px;}
+.download .row-1 .col-2 img{width: 100%; height:auto   }
+
+
+@media (max-width:1024px) {
+    .mobile-nav{width: 90%; ; display: flex; }
+    .mobile-nav .logo{width: 50%;  margin-top: 10px;  text-align: left;}
+    .mobile-nav .logo img{width: 30%; height: 40px;}
+    .mobile-nav .logo a{text-align: right; font-size: 30px; text-decoration: none; font-weight: 300; color: black;}
+    .nav{display: none;}
+    .nav .logo{display: none;}
+    .nav .link-1{display: none;}
+    .nav .link-2{display: none;}
+
+    .row-1{width: 90%; padding: 50px; display: block;  justify-content: center;}
+    .row-1 .col-1{width: 90%; justify-content: center; }
+    .row-1 .col-1 h1{text-align: center; font-size: 50px; font-weight: 600;}
+    .row-1 .col-1 h2{text-align: center; font-size: 30px;}
+    .row-1 .col-1 a{text-decoration: none; justify-content: center;}
+    .row-1 .col-1 p{font-size: 25px; text-align: center; text-decoration: none;}
+    .row-1 .col-2{width: 80%; object-fit: contain; margin-top: 20px; }
+    .row-1 .col-2 img{width: 100%; height:auto;  }
+    .row-1 .links{width: 30%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+
+    .row-2{width:  90%; height: 100px; margin: 50px; border-top: 1px solid gainsboro; justify-content: center; text-align: center;}
+    .row-2 p{font-size: 18px; margin-top: 60px;}
+    .row-2 a{text-decoration: none;}
+
+    .row-3{width: 90%; ; display: grid; grid-template-columns: auto auto; text-decoration: none; margin: 10px; margin-top: 30px;}
+    .row-3 .col-1{ object-fit: contain; } 
+    .row-3 .col-1 img{width: 90%; height:350px  }
+    .row-3 .col-2 h1{font-weight: 600; font-size: 25px; margin-top: 40px; text-align: left;}
+    .row-3 .col-2 p{font-size: 12px; margin-top: 20px; text-decoration: none;}
+
+    .row-4{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: 40px; margin-top: 30px;}
+.row-4 .col-1 h1{font-weight: 600; font-size: 30px; margin-top: 120px;}
+.row-4 .col-1 p{font-size: 12px; margin-top: 20px; text-decoration: none;}
+.row-4 .col-2{ object-fit: contain; } 
+.row-4 .col-2 img{width: 90%; height: 350px;}
+
+.row-5{width: 90%; ; display: grid; grid-template-columns: auto auto; text-decoration: none; margin: 40px; margin-top: 30px;}
+.row-5 .col-1{ object-fit: contain; } 
+.row-5 .col-1 img{width: 90%; height:350px  }
+.row-5 .col-2 h1{font-weight: 600; font-size: 25px; margin-top: 40px; text-align: left;}
+.row-5 .col-2 p{font-size: 12px; margin-top: 20px; text-decoration: none;}
+
+.row-6{width: 90%;  display: grid; grid-template-columns: auto auto; text-decoration: none; margin: 40px; margin-top: 30px;}
+.row-6 .col-1 h1{font-weight: 600; font-size: 30px; margin-top: 120px;}
+.row-6 .col-1 p{font-size: 18px; margin-top: 20px; text-decoration: none;}
+.row-6 .col-2{ object-fit: contain; } 
+.row-6 .col-2 img{width: 90%; height: 350px;}
+
+.row-7{width: 90%; height: 700px; justify-content: center;}
+.row-7 .main{width: 80%; height: 700px; justify-content: center; background-color: rgb(222, 240, 245);  margin-top: 50px; text-align: center;}
+.row-7 .main .top h1{padding: 30px; font-size: 30px;}
+.row-7 .main .center{padding: 30px; margin: 10px; display: flex; text-align: center; justify-content: center}
+.row-7 .main .center img{width: 12%; height: 30px; }
+.row-7 .main .bottom{width: 99%; height: 400px; background-color: whitesmoke; margin: 0px; margin-top: 30px;}
+.row-7 .main .bottom img{padding: 30px; margin-top: 20px;}
+.row-7 .main .bottom p{padding: 20px; font-size: 25px;}
+.row-7 .main .bottom a{padding: 30px; text-decoration: none;}
+.row-7 .main .center-1{display: none;}
+.row-7 .main .center-2{display: none;}
+
+.row-8{width: 90%; height: 200px; justify-content: center;}
+.row-8 .top{width: 100%; display: flex;  justify-content: center; margin-top: 90px;}
+.row-8 .top h1{font-size: 20px; text-align: center;}
+.row-8 .bottom { justify-content: center; display: grid; grid-template-columns: auto auto auto auto auto auto; margin: 10px; margin-top: 30px;}
+.row-8 .bottom .col{ width: 90%; height: 80px; border: 1px solid gainsboro; margin: 40px; justify-content: center;}
+.row-8 .bottom .col img{ width: 90%; height: 40px; object-fit: contain; margin: 10px; margin-top: 10px;}
+.row-8 .bottom .col img:hover{box-shadow: 3px 3px 2px 2px rgb(42, 42, 44);}
+.row-8 .clone-1{display: none;}
+.row-8 .clone-2{display: none;}
+
+.row-9{width: 90%; height: 400px; text-align: center; justify-content: center ; padding: 60px; text-decoration: none;}
+.row-9 h1{font-weight: 500; font-size: 40px;}
+.row-9 h2{font-size: 25px; margin-top: 10px; font-weight: 2;}
+.row-9 p{margin-top: 20px;}
+.row-9 .image{width: 100%; display: flex; margin-top: 20px; justify-content: center; }
+.row-9 .image .col{margin: 10px;}
+.row-9 .image .col p{font-size: 12px;}
+
+
+.row-10{width: 90%; height: 300px; justify-content: center;}
+.row-10 table{ width: 800px; margin-left: 50px; margin-right: 50px; margin-top: 5px; border-collapse: collapse; font-size: 16px; font-weight: 500; line-height: 24px; line-height: 24px; }
+.row-10 .cost{display: block; margin: 20px;   justify-content: center;}
+
+.row-11 {width: 90%; height: 300px; margin: 30px; text-align: center;}
+.row-11 h1{margin-top: 650px; font-size: 30px;}
+.row-11 img{margin-top: 20px;}
+.row-11 p{ font-size: 20px;}
+.row-11 a{ text-decoration: none;}
+
+
+.row-12 {width: 90%;}
+.row-12 h1 {width: 100%; text-align: center; color: #202124; padding-bottom: 1%;}
+.row-12 .links {width: 40%; display: flex; justify-content: space-evenly; padding: 2%; margin: auto;}
+.row-12 a{text-decoration: none;}
+.row-12 .links .btn-1{border: 1px solid #4285F4; background-color: #4285F4; padding: 8px; border-radius: 5px; text-decoration: none; color: white;}
+.row-12 .links .btn-2{border: 1px solid gainsboro; padding: 8px; border-radius: 5px; text-decoration: none; color: #4285F4 ;}
+
+.footer {width: 100%; display: block; background-color: #F8F9FA; padding: 2%;}
+.footer .top{width: 95%; margin: auto; display: flex;}
+.footer .top a{text-decoration: none; color: #4285F4;}
+.footer .top p{border-bottom: 1px solid gainsboro; padding-bottom: 3%;}
+.footer .bottom{width: 90%; display: block;}
+.footer .bottom .col-1{width: 40%; display: flex; justify-content: space-evenly; margin-left: 2%; padding-top: 3%;}
+.footer .bottom .col-1 a{font-size: 20px; text-decoration: none; color: #202124;}
+.footer .bottom .col-2{width: 40%; display: flex; justify-content: space-evenly; padding-top: 3%;}
+.footer .bottom .col-2 a{text-decoration: none; text-align: left; color: #202124;}
+.footer .bottom .col-2 p{color: #202124; text-align: right; color: #202124;}
+
+    }
+
+
+
+
+@media (max-width:768px) {
+    .mobile-nav{width: 100%; ; display: flex; }
+    .mobile-nav .logo{width: 50%;  margin-top: 10px;  text-align: left;}
+    .mobile-nav .logo img{width: 30%; height: 40px;}
+    .mobile-nav .logo a{text-align: right; font-size: 30px; text-decoration: none; font-weight: 300; color: black;}
+    .nav{display: none;}
+    .nav .logo{display: none;}
+    .nav .link-1{display: none;}
+    .nav .link-2{display: none;}
+
+    .row-1{width: 100%; display: block; justify-content: center;}
+    .row-1 .col-1{width: 100%; justify-content: center;}
+    .row-1 .col-1 h1{text-align: center; font-size: 60px; font-weight: 600;}
+    .row-1 .col-1 h2{text-align: center; font-size: 30px;}
+    .row-1 .col-1 a{text-decoration: none; justify-content: center;}
+    .row-1 .col-1 p{font-size: 15px; text-align: center; text-decoration: none;}
+    .row-1 .col-2{margin-top: 40px;}
+    .row-1 .col-2 img{margin-top: 30px;}
+
+
+
+    .row-2{width: 90%; margin-top: 100px;}
+    .row-3{width: 90%; display: block; justify-content: center;}
+    .row-3 .col-2 h1{font-size: 30px; font-weight: 400;}
+    .row-3 .col-2 p{font-size: 20px;}
+
+    .row-4{width: 90%; display: block; justify-content: center;}
+    .row-4 .col-1 h1{font-size: 30px; font-weight: 400;}
+    .row-4 .col-1 p{font-size: 20px;}
+
+    .row-5{width: 90%; display: block; justify-content: center;}
+    .row-5 .col-1{width: 90%; margin-top: 70px;}
+    .row-5 .col-2 h1{font-size: 30px; font-weight: 400;}
+    .row-5 .col-2 p{font-size: 20px;}
+
+    .row-6{width: 90%; display: block; justify-content: center;}
+    .row-6 .col-1 h1{font-size: 30px; font-weight: 400;}
+    .row-6 .col-1 p{font-size: 20px;}
+**
+    .row-7{width: 90%; display: block; justify-content: center ;}
+    .row-7 .main{width: 85%; justify-content: center;}
+    .row-7 .main .top h1{font-size: 20px;}
+    .row-7 .main .center{display: none;}
+    .row-7 .main .center-1{display: flex; justify-content: center; justify-content: space-evenly;}
+    .row-7 .main .center-1 img{width: 25%; height: 35px; margin-top: 30px; }
+    .row-7 .main .center-2{display: flex; justify-content: center;}
+    .row-7 .main .center-2 img{width: 40%; height: 65px; margin-top: 20px;}
+    .row-7 .main .bottom{width: 97%; margin: 10px; margin-top: 130px;}
+
+    .row-8{width: 90%; display: block;justify-content: center ;}
+    .row-8 .top h1{justify-content: center; text-align: center; padding: 10px;}
+    .row-8 .bottom{display: none;}
+    .row-8 .clone-1{display: flex; padding: 20px; justify-content: space-between; width: 100%;}
+    .row-8 .clone-1 .col{width: 50%; height: 80px; border: 1px solid gainsboro; margin: 10px;}
+    .row-8 .clone-1 .col img{ width: 100%; height: 70px; object-fit: contain; }
+    .row-8 .clone-1 .col img:hover{box-shadow: 3px 3px 2px 2px rgb(42, 42, 44);}
+    .row-8 .clone-2{display: flex; padding: 20px; justify-content: space-between; width: 100%;}
+    .row-8 .clone-2 .col{width: 50%; height: 80px; border: 1px solid gainsboro; margin: 10px;}
+    .row-8 .clone-2 .col img{ width: 100%; height: 70px; object-fit: contain; }
+    .row-8 .clone-2 .col img:hover{box-shadow: 3px 3px 2px 2px rgb(42, 42, 44);}
+
+
+
+    .row-9{width: 90%; margin-top: 50px;}
+    .row-9 h1{font-size: 18px; font-weight: 20;}
+    .row-9 h2{font-size: 13px;}
+    .row-9 .image .col{width: 30%; justify-content: center; }
+
+    .row-10{width: 100%; height: 400px; justify-content: center;}
+    .row-10 table{ width: 600px; margin-left: 50px; margin-right: 50px; margin-top: 10px; border-collapse: collapse; font-size: 16px; font-weight: 500; line-height: 24px; line-height: 24px; }
+    .row-10 .cost{display: block; margin: 20px;   justify-content: center;}
+
+    .row-11 {width: 90%; height: 300px; margin: 50px; text-align: center;}
+    .row-11 h1{margin-top: 650px; font-size: 30px;}
+    .row-11 img{margin-top: 20px;}
+    .row-11 p{ font-size: 20px;}
+    .row-11 a{ text-decoration: none;}
+
+
+    .footer{width: 100%;}
+
+
+
+}
+
+
+
+
+@media (max-width:425px) {
+    .mobile-nav{width: 100%; height: auto; margin-top: 20px; justify-content: center; display: flex;}
+    .mobile-nav img{width: 30%; height: 40px;}
+    .mobile-nav a{text-align: center; font-size: 20px; text-decoration: none; margin-top: 20px; font-weight: 600; color: black;}
+    .nav{display: none;}
+    .nav .logo{display: none;}
+    .nav .link-1{display: none;}
+    .nav .link-2{display: none;}
+
+    .row-1{width: 90%; display: block; justify-content: center;}
+    .row-1 .col-1 h1{text-align: center; font-size: 25px; font-weight: 600;}
+    .row-1 .col-1 h2{text-align: center; font-size: 15px;}
+    .row-1 .col-1 a{text-decoration: none;}
+    .row-1 .col-1 p{font-size: 15px;}
+    .row-1 .col-2{margin-top: 40px;}
+    .row-1 .col-2 img{margin-top: 30px;}
+
+
+
+    .row-2{width: 90%; margin-top: 100px;}
+
+    .row-3{width: 90%; display: block; justify-content: center;}
+    .row-3 .col-2 h1{font-size: 30px; font-weight: 400;}
+    .row-3 .col-2 p{font-size: 20px;}
+
+    .row-4{width: 90%; display: block; justify-content: center;}
+    .row-4 .col-1 h1{font-size: 30px; font-weight: 400;}
+    .row-4 .col-1 p{font-size: 20px;}
+
+    .row-5{width: 90%; display: block; justify-content: center;}
+    .row-5 .col-1{width: 90%; margin-top: 70px;}
+    .row-5 .col-2 h1{font-size: 30px; font-weight: 400;}
+    .row-5 .col-2 p{font-size: 20px;}
+
+    .row-6{width: 90%; display: block; justify-content: center;}
+    .row-6 .col-1 h1{font-size: 30px; font-weight: 400;}
+    .row-6 .col-1 p{font-size: 20px;}
+
+    .row-7{width: 90%; display: block;justify-content: center ;}
+    .row-7 .main .top h1{font-size: 20px;}
+    .row-7 .main .center{display: block;}
+    .row-7 .main .center img{width: 20%; height: 30px;}
+    .row-7 .main .bottom{width: 90%}
+
+    .row-8{width: 90%; display: block;justify-content: center ;}
+    .row-8 .bottom{padding: 20px; justify-content: space-between; width: 100%}
+    .row-8 .bottom .col{width: 49%}
+
+    .row-9{width: 90%;}
+    .row-9 h1{font-size: 18px; font-weight: 20;}
+    .row-9 h2{font-size: 13px;}
+    .row-9 .image{width: 30%;}
+
+
+}
